@@ -8,19 +8,19 @@ const seed = () => {
             var chatId = Chats.insert({
                 name: `Chat #${i}`,
                 particpants: [{
-                    _id: 'BWY68jr3LMzfkkmuB',
+                    _id: 'n9cSwSWS4sbZ63HMH',
                     name: 'Jason Fan'
                 }, {
-                    _id: 'JwzwM7hnXNLicp3Qj',
-                    name: 'Andrew Lawrence'
+                    _id: 'RXjggZLA4YBpZkkRz',
+                    name: 'Test User'
                 }]
             });
 
             Messages.insert({
-                text: `Hi Andrew! This is a test message for chat ${i}`,
+                text: `Hi Test User! This is a test message for chat ${i}`,
                 createdAt: new Date(),
                 user: {
-                    _id: 'BWY68jr3LMzfkkmuB',
+                    _id: 'n9cSwSWS4sbZ63HMH',
                     name: 'Jason Fan',
                 },
                 chatId: chatId
