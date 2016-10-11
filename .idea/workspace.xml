@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb28120c-f3e0-4232-917b-aaafd03c67a9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collections/chats.js" afterPath="$PROJECT_DIR$/lib/collections/chats.js" />
     </list>
     <ignored path="MeteorApp.iws" />
@@ -26,8 +30,8 @@
       <file leaf-file-name="chats.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/collections/chats.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="495">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -309,12 +313,12 @@
       <workItem from="1475444443386" duration="291000" />
       <workItem from="1475528040905" duration="18887000" />
       <workItem from="1475955664669" duration="2458000" />
-      <workItem from="1476034687619" duration="7268000" />
+      <workItem from="1476034687619" duration="7440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29310000" />
+    <option name="totallyTimeSpent" value="29482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="18" y="23" width="1385" height="813" extended-state="0" />
@@ -609,8 +613,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/collections/chats.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="495">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
