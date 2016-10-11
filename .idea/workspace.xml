@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb28120c-f3e0-4232-917b-aaafd03c67a9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collections/chats.js" afterPath="$PROJECT_DIR$/lib/collections/chats.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collections/messages.js" afterPath="$PROJECT_DIR$/lib/collections/messages.js" />
     </list>
     <ignored path="MeteorApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="chats.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chats.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/collections/chats.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="405">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="30" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/collections/messages.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -104,7 +110,6 @@
         <option value="$PROJECT_DIR$/lib/collections/details.js" />
         <option value="$PROJECT_DIR$/server/publications/details.js" />
         <option value="$PROJECT_DIR$/lib/collections/accounts.js" />
-        <option value="$PROJECT_DIR$/lib/collections/messages.js" />
         <option value="$PROJECT_DIR$/server/publications/index.js" />
         <option value="$PROJECT_DIR$/server/publications/messages.js" />
         <option value="$PROJECT_DIR$/lib/collections/users.js" />
@@ -112,6 +117,7 @@
         <option value="$PROJECT_DIR$/server/publications/users.js" />
         <option value="$PROJECT_DIR$/server/seeds.js" />
         <option value="$PROJECT_DIR$/lib/collections/chats.js" />
+        <option value="$PROJECT_DIR$/lib/collections/messages.js" />
       </list>
     </option>
   </component>
@@ -313,12 +319,12 @@
       <workItem from="1475444443386" duration="291000" />
       <workItem from="1475528040905" duration="18887000" />
       <workItem from="1475955664669" duration="2458000" />
-      <workItem from="1476034687619" duration="7440000" />
+      <workItem from="1476034687619" duration="7514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29482000" />
+    <option name="totallyTimeSpent" value="29556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="18" y="23" width="1385" height="813" extended-state="0" />
@@ -549,14 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/collections/messages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/collections/users.js" />
     <entry file="file://$PROJECT_DIR$/lib/collections/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -601,6 +599,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/chats.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="30" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/seeds.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -611,10 +617,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/collections/chats.js">
+    <entry file="file://$PROJECT_DIR$/lib/collections/messages.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding />
         </state>
       </provider>
