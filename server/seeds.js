@@ -1,10 +1,9 @@
 import Chats from '/lib/collections/chats';
 import Messages from '/lib/collections/messages';
 
-
 const seed = () => {
     if (Chats.find().count() === 0) {
-        for (let i = 0; i < 10; i++) {
+        for (let i = 0; i < 5; i++) {
             var chatId = Chats.insert({
                 name: `Chat #${i}`,
                 particpants: [{
