@@ -1,5 +1,6 @@
 import Chats from '/lib/collections/chats';
 import Messages from '/lib/collections/messages';
+import Tasks from '/lib/collections/tasks';
 
 const seed = () => {
     if (Chats.find().count() === 0) {
@@ -25,6 +26,21 @@ const seed = () => {
                 chatId: chatId
             });
         }
+    }
+
+    if (Tasks.find().count() === 0) {
+        Tasks.insert({
+            title: 'Test Task',
+            body: 'Test body of this task',
+            assignedTo: {
+                _id: 'MTfBGDHSCEu7rLJbk',
+                name: 'Jason Fan'
+            },
+            assignedFrom: {
+                _id: 'MTfBGDHSCEu7rLJbk',
+                name: 'Jason Fan'
+            }
+        })
     }
 };
 
